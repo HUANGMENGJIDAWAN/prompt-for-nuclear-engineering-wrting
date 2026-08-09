@@ -1,5 +1,9 @@
 # prompt-for-nuclear-engineering-wrting
-prompt for ai wrting in nucler engineering
+##目录
+-[中文润色](#中文润色)
+-[中译英](#中译英)
+-[英文润色](#英文润色)
+-[审稿](#审稿)
 ---
 ## 中文润色
 ```
