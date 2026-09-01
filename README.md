@@ -8,6 +8,8 @@
   
 - [审稿](#审稿)
 - [英语扩写](#英语扩写)
+- 
+- [英语精简](#英语精简)
   
 ---
 ## 中文润色
@@ -263,4 +265,53 @@ Part 3 [Modification Notes]
 1. 每个指出的问题是否具体到可操作的程度？例如，不能说“缺乏验证”，要说“缺少基于XX基准例题的稳态Keff对比，且未讨论控制棒干涉效应对停堆深度的影响”。
 2. 是否准确区分了“表述瑕疵”与“方法缺陷”？两者的严重性权重和修复路径是否在评语中清晰反映？
 3. 评分是否客观反映了研究对核工程领域的实际推进，而非套用固定的严苛预设？
+```
+---
+## 英语精简
+```
+请作为我的资深学术论文编辑，同时扮演《Nuclear Engineering and Design》的顶级审稿人。对于我输入的英文段落，请执行“精简压缩”与“防御性写作诊断”双重任务。
+
+【第一部分：精简压缩（手术刀）】
+目标：将原文压缩至40%-50%，保留核心逻辑骨架。
+1. 砍背景重复：删除“深空环境恶劣/太阳能弱/无法补给/防扩散条约背景”等常识铺垫。
+2. 压缩文献综述：不罗列具体国家/堆型/冷却剂细节，只保留高层级维度和最关键的物理矛盾。
+3. 删除空壳套话：清除"remains in its infancy", "are yet to be clarified", "poses open questions", "several key mechanisms are elucidated", "should be regarded as"。
+4. 合并同义复现：将表达同一意思的多句话合并为一个紧凑复合句。
+5. 简化修饰冗余：删除"strictly", "particularly", "approximately", "consequently providing a basis for"等冗余状语。
+6. 强制主动语态：禁止"This study targets...as the primary objectives"，改用"We aim to..."或"We establish..."。
+
+【第二部分：防御性写作诊断（审稿人视角）】
+严格按照以下分类，逐句扫描并标注问题。对于识别出的每一处问题，请以表格形式返回：
+
+| 位置 | 原句 | 问题类型 | 严重性 | 是否必要 | 为何感觉防御性 | 审稿人反应 | 建议操作 | 精简改写 |
+|------|------|----------|--------|----------|----------------|------------|----------|----------|
+
+【必须识别的防御性写作类型（严格参照用户提供清单）】：
+- 审稿人预反驳（Pre-emptive reviewer rebuttals）：如"While it is true that...it should be noted that..."
+- 重复免责声明（Repeated non-claim disclaimers）：如"To the best of our knowledge", "It is believed that"
+- 警示堆叠（Caveat stacking）：在一句话里用两个以上although/despite/while
+- 对弱结果的辩解（Excuses for weak results）：如"The results are acceptable given the limitations"
+- 对缺失实验的辩护（Defenses of missing experiments）：如"Although X was not performed, it is considered sufficient"
+- “公平性”声明（"Fairness" claims）：如"It is fair to say that"
+- 重复的初步/范围限定词（Repeated preliminary/scope qualifiers）：如"preliminary", "initial", "first-step"
+- 法律式免责（Legalistic disclaimers）：如"It should be emphasized that this is only a conceptual design"
+- 无关防御性披露（Irrelevant defensive disclosures）：如"It must be admitted that"
+- 促销性形容词替代测量（Promotional adjectives）：如"very promising", "extremely attractive", "highly desirable"
+- AI自动总结句（AI-style automatic summary sentences）：如"In summary, this work presents a comprehensive study of..."
+
+【禁止操作】- 严格遵守用户提供的禁令：
+× 不要评判新颖性（judge novelty）
+× 不要给出接收评分（assign acceptance score）
+× 不要批评技术质量（除非为了判断某个警示是否必要）
+× 不要删除科学上必要的局限性
+× 不要将主张强度提升到超出证据支撑的范围
+
+【第三部分：最终输出】
+1. 精简后的完整英文正文（约原文40%-50%）。
+2. 防御性诊断表（识别出的所有问题）。
+3. 诊断总结：
+   - 防御性写作评分（0-10，0为完全无防御性，10为全文处处防御）
+   - 最高优先级删除项（3-5处）
+   - 必须保留的科学局限性（必要警示）
+   - 重复防御性短语出现次数统计
 ```
